@@ -1,0 +1,90 @@
+body {
+    background-color: blueviolet;
+
+}
+
+header{
+    background-color: beige;
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+    padding: 5px 10px;    
+}
+.imagenes.header{
+    max-height: min-content;
+}
+
+
+h2 {
+
+    border: 1px solid green;
+    width:  fit-content; /*FIT CONTENT SIRVE PARA AJUSTARSE AL TAMAñO DE LA ETIQUETA */
+    background-color: aquamarine;
+    padding: 15px 25px;
+    border-radius: 10px;
+    color: brown;
+    margin: 20px;
+}
+
+p {
+    background-color: blue;
+    color: yellow;
+    font-size: 30px;
+    border: 1px solid yellow;
+
+}
+
+#cursiva {
+    font-family: cursive;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+h1{
+    color: aqua;
+    padding: 5px 10px;
+    margin-bottom: 1rem;
+}
+
+img {
+    /* height: 100%;
+    width: 100%; */
+    height: 80;
+    width: 30;
+    margin-left: 20px;
+    /*position: absolute;*/
+    top: 0;
+    left: 0;
+}
+
+.imagenes{
+width: 250px;
+height: auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+main {
+    padding: 10px;
+}
+
+
+.footer {
+    /* position: fixed;
+    bottom: 0;
+    left: 0; */
+    padding: 15px 10px;
+    width: 100%;
+    height: 90px;
+    background-color: green;
+}
+.footer a{
+    font-size: 24px;
+}
